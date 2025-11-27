@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+body{
+  background:#f5f5f5 ;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+  line-height: 1;
+  cursor: pointer;
+}
+li{
+  list-style: none;
+}
+.container{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.btn{
+  background-color: white;
+  color: #212121;
+  padding: 14px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 30px;
+  border: 0;
+  outline: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn img{
+  width: 20px;
+  margin-left: 10px;
+}
+.dark-btn{
+  background: #212ea0;
+  color: white;
+}
+
+/* ======== Media Query ===== */
+@media (max-width:1200px){
+  .container{
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+  .btn{
+    padding: 12px 20px;
+  }
+  .hero .hero-text h1{
+    font-size: 46px;
+  }
+}
+
+@media (max-width:1000px){
+  .container .logo{
+    width: 150px;
+  }
+  .btn{
+    padding: 10px 18px;
+  }
+  .container ul li{
+    margin: 12px 12px;
+  }
+  .about-left .about-img{
+    width: 230px;
+  }
+  .about-left .about-icon{
+    width: 10%;
+  }
+  .about .about-right h2{
+    font-size: 160%;
+  }
+  .about .about-right h3{
+    font-size: 90%;
+  }
+  .about .about-right p{
+    font-size: 80%;
+  }
+}
