@@ -8,10 +8,12 @@ import Campus from './components/campus/Campus';
 import Testmonial from './components/Testimonial/Testmonial';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
+import Cursor from './components/cursor effect/Cursor';
 const App = () => {
   
   return (
     <div>
+      <Cursor/>
       <Navbar/>
       <Hero/>
       <div className="container">
